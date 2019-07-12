@@ -18,9 +18,9 @@ let filmes = [
 function movies(idade){
 for(let i=0;i<filmes.length;i++){
     if(idade >=filmes[i].classificacao){
-        console.log('Voce pode ver os seguintes filme'+filmes[i].titulo);
+        console.log('Voce pode ver os seguintes filme '+filmes[i].titulo);
     }else {
-        console.log('Nao autorizado');
+        //console.log('Nao autorizado');
     }
 }
 }
